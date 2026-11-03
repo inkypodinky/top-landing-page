@@ -1,0 +1,47 @@
+body {
+    background-color: #1F2937; 
+    font-family: Roboto; 
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    size: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.random-panel {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-panel {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sign-up-panel {
+    background-color: #E5E7EB;
+}
+
+.banner {
+    background-color: #3882F6;
+}
