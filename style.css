@@ -74,7 +74,7 @@ ul {
     margin-left: 50px;
     flex: 0 0 500px;
     background-color: grey;
-    color: white;
+    color: #F9FAF8;
     text-align: center;
     align-content: center;
 }
@@ -112,7 +112,7 @@ ul {
 
 .random-pic {
     border-style: solid;
-    border-color: blue;
+    border-color: #3882F6;
     border-radius: 16px;
     color: #F9FAF8;
     width: 150px;
