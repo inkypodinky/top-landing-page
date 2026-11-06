@@ -83,11 +83,15 @@ ul {
     background-color: #F9FAF8;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 256px 100px;
+    padding: 0px 256px 80px;
+}
+
+.random-header-text {
+    font-weight: 800;
+    margin-bottom: 0;
 }
 
 .square-pic-panel {
@@ -123,6 +127,31 @@ ul {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 100px 200px;
+    margin: 0;
+
+    p {
+        margin: 0;
+    }
+
+    blockquote {
+        margin: 0;
+    }
+}
+
+.byline {
+    font-weight: 700;
+    font-style: none;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 50px;
+    font-style: normal;
+
+    cite {
+        font-style: normal;
+    }
 }
 
 .sign-up-panel {
