@@ -156,8 +156,45 @@ ul {
 
 .sign-up-panel {
     background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 50px;
 }
 
 .banner {
     background-color: #3882F6;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 50px 100px;
+
+    button {
+        border-style: solid;
+        border-color: white;
+    }
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    h3,
+    p {
+        margin: 0;
+    }
+
+    p {
+        font-weight: 300;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 24px; 
 }
